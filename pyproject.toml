@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-subtitle-effects"
+version = "1.0.0"
+description = "Dynamic subtitle effect nodes for ComfyUI - CapCut-style animated subtitles, CPU rendering with zero VRAM"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = ["Pillow>=9.0.0", "jieba>=0.42", "hanlp>=2.1"]
+
+[project.urls]
+Repository = "https://github.com/liaowu-boos/ComfyUI-Subtitle-Effects"
+
+[tool.comfy]
+PublisherId = "liaowu"
+DisplayName = "ComfyUI-Subtitle-Effects"
+Icon = ""

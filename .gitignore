@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 测试产物（生成的帧/视频/网格图，不入库）
+test_output/
+
+# 专有字体：Arial Unicode MS 非免费商用，不公开分发
+fonts/ArialUnicode.ttf
+
+# 已下线节点（不发布）：旧情绪排版 + 霓虹弹跳
+nodes/effect_04_dynamic_typography.py
+nodes/effect_04_dynamic_typography.v1.4.draft.py
+nodes/effect_05_neon_bounce.py
+
+# 开发用脚本（不发布）：调试 / 可视化测试 + 演示视频生成
+/test_*.py
+/gen_all_videos.py
+
+# comfy-cli 发布生成的临时包
+node.zip
+*.zip
